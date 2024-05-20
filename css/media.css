@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+    .s-3 img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .myform {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs-div {
+        width: 100%;
+    }
+    .input-text {
+        width: 100%;
+    }
+    .mysubmit {
+        width: 100%;
+    }
+    .card-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .s-3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .s-3 img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .infodiv-1 h6 {
+        font-size: 14px;
+    }
+    .infodiv-1 h2 {
+        font-size: 36px;
+        width: 100%;
+    }
+}
